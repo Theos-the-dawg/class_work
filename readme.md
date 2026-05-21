@@ -19,9 +19,12 @@ POP QUIZ: 21-05-26
 
 You are building a simple calculator app that has math functions such as divide multiply add and subtarct.
 
-*Create nested user objects that you will apply this to, user EG. {username, surname, account:{acc_type:,
+*Create nested user objects that you will apply this to, user EG.
 
-balance:1000,date}}}
+```json
+ [{"userdetails":{ "name":"","surname":""}, ""account":{acc_type:"","balance":1000,date:"object/string"}}]
+```
+
 
 1.) Create 4 functions that are respectively named divide, add,subtract,multiply; These functions must all be applicable to the user(s) values on balance.
 
